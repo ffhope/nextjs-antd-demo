@@ -1,0 +1,39 @@
+{
+  "name": "next-antd-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "convert": "node ./i18n/convert.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^4.16.8",
+    "axios": "^0.19.2",
+    "date-fns": "^2.22.1",
+    "eslint": "^7.31.0",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^3.14.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "lodash": "^4.17.4",
+    "next": "^11.0.0",
+    "next-with-less": "^1.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-intl": "^5.20.4",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.1",
+    "eslint-config-next": "^11.0.1",
+    "js-yaml": "^3.14.1",
+    "typescript": "^4.0"
+  },
+  "license": "MIT"
+}
