@@ -1,0 +1,10 @@
+{
+  "dark": {
+    "primary-color": "#535CF1",
+    "backgroundImage": "url(../assets/images/bg@2x.png)"
+  },
+  "light": {
+    "primary-color": "orange",
+    "backgroundImage": "url(../assets/images/bg@2x.png)"
+  }
+}
